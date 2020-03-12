@@ -1,0 +1,14 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: csdn_label1
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test1
+    username: root
+    password: sasa
+  jpa:
+    database: mysql
+    show-sql: true
+    generate-ddl: true
